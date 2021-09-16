@@ -2,6 +2,7 @@ buildscript {
     repositories {
         mavenCentral()
         google()
+        maven { url "https://jitpack.io" }
         //noinspection JcenterRepositoryObsolete
         jcenter()
         maven { url "https://s3.amazonaws.com/repo.commonsware.com" }
@@ -9,7 +10,6 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:4.2.2'
-        classpath "com.github.ben-manes:gradle-versions-plugin:0.20.0"
     }
 }
 
@@ -18,9 +18,9 @@ allprojects {
     repositories {
         mavenCentral()
         google()
+        maven { url "https://jitpack.io" }
         //noinspection JcenterRepositoryObsolete
         jcenter()
-        maven { url "https://jitpack.io" }
         maven { url "https://s3.amazonaws.com/repo.commonsware.com" }
     }
 }

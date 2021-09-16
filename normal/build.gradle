@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: "com.github.ben-manes.versions"
 apply from: '../sign.gradle'
 
 android {
@@ -19,7 +18,10 @@ android {
 }
 
 dependencies {
-    api project(':ui')
-    api project(':account')
-    api project(':badge')
+    debugApi project(':ui')
+    debugApi project(':account')
+    debugApi project(':badge')
+//    api 'com.github.TonyTangAndroid.common:ui:1.4.59'
+//    api 'com.github.TonyTangAndroid.common:account:1.4.59'
+//    api 'com.github.TonyTangAndroid.common:badge:1.4.59'
 }
