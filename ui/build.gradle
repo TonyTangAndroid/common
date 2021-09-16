@@ -1,10 +1,10 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 30
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 30
         consumerProguardFiles 'proguard/ui.pro'
     }
 }
@@ -12,15 +12,15 @@ android {
 dependencies {
 
     api 'com.github.lisawray.groupie:groupie:2.9.0'
-    api 'com.google.android.material:material:1.0.0'
+    api 'com.google.android.material:material:1.4.0'
     api 'androidx.legacy:legacy-support-v4:1.0.0'
     api 'androidx.cardview:cardview:1.0.0'
-    api 'androidx.appcompat:appcompat:1.0.2'
+    api 'androidx.appcompat:appcompat:1.3.1'
 
-    api 'com.google.android.gms:play-services-vision:17.0.2'
-    api 'com.google.android.gms:play-services-oss-licenses:16.0.2'
+    api 'com.google.android.gms:play-services-vision:20.1.3'
+    api 'com.google.android.gms:play-services-oss-licenses:17.0.0'
 
-    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+    api 'androidx.constraintlayout:constraintlayout:2.1.0'
     api 'com.github.UsherAndroid.barcodescanner:zxing:1.9.113'
     api 'com.github.UsherAndroid.barcodescanner:vision:1.9.113'
     api 'com.github.MstrUsherAndroid:Android-ItemTouchHelper-Demo:1.4.13'
@@ -28,19 +28,19 @@ dependencies {
     api 'com.github.kenglxn.QRGen:android:2.5.0'
     api 'com.jakewharton.rxbinding2:rxbinding:2.2.0'
     api 'com.github.CanHub:Android-Image-Cropper:3.3.5'
-    api 'com.github.TonyTangAndroid:textview-rich-drawable:0.3.2'
+    api 'com.github.TonyTangAndroid:textview-rich-drawable:0.3.4'
 
     api 'de.hdodenhof:circleimageview:3.1.0'
     api 'com.aurelhubert:ahbottomnavigation:2.2.0'
     api 'com.github.UsherAndroid:ExpandableLayout:1.6.23'
 
-    api 'com.github.tbruyelle:RxPermissions:0.10.2'
+    api 'com.github.tbruyelle:RxPermissions:0.11'
     api 'me.saket:better-link-movement-method:2.2.0'
-    api 'com.afollestad.material-dialogs:core:0.9.6.0'
+    api 'com.afollestad.material-dialogs:core:2.0.0'
 
     api 'com.evernote:android-state:1.4.1'
 
-    api 'com.google.android.gms:play-services-auth:16.0.1'
+    api 'com.google.android.gms:play-services-auth:19.2.0'
     api 'com.google.http-client:google-http-client-gson:1.28.0'
     api('com.google.api-client:google-api-client-android:1.28.0') {
         exclude group: 'org.apache.httpcomponents'

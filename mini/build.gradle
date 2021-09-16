@@ -3,14 +3,14 @@ apply plugin: "com.github.ben-manes.versions"
 apply from: '../sign.gradle'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 30
 
 
 
     defaultConfig {
         applicationId "demo.tang.tony.com.mini"
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
     }

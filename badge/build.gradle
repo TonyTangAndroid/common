@@ -1,10 +1,10 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 30
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 30
         consumerProguardFiles 'proguard/okio.pro'
         consumerProguardFiles 'proguard/gson.pro'
         consumerProguardFiles 'proguard/glide.pro'
@@ -19,13 +19,12 @@ android {
 dependencies {
 
 
-    //noinspection GradleCompatible
-    api 'androidx.appcompat:appcompat:1.0.2'
-    api 'androidx.preference:preference:1.0.0'
+    api 'androidx.appcompat:appcompat:1.3.1'
+    api 'androidx.preference:preference:1.1.1'
 
-    api 'com.google.dagger:dagger:2.21'
+    api 'com.google.dagger:dagger:2.38.1'
 
-    api 'com.github.bumptech.glide:glide:4.9.0'
+    api 'com.github.bumptech.glide:glide:4.12.0'
 
     //please refer to here why 2.1.0 is not working.
     // https://github.com/square/okio/issues/516
@@ -35,11 +34,11 @@ dependencies {
     api 'io.reactivex.rxjava2:rxandroid:2.1.1'
     api 'com.commonsware.cwac:netsecurity:0.4.5'
     api 'net.grey-panther:natural-comparator:1.1'
-    api 'androidx.lifecycle:lifecycle-common-java8:2.0.0'
+    api 'androidx.lifecycle:lifecycle-common-java8:2.3.1'
     api 'online.devliving:securedpreferencestore:0.7.4'
-    api 'com.google.android.gms:play-services-base:16.1.0'
+    api 'com.google.android.gms:play-services-base:17.6.0'
     api 'com.github.UsherAndroid.chuck:library:1.2.18'
-    api 'com.f2prateek.rx.preferences2:rx-preferences:2.0.0'
+    api 'com.f2prateek.rx.preferences2:rx-preferences:2.0.1'
 
 
     //app state
@@ -47,8 +46,8 @@ dependencies {
     api 'com.jenzz.appstate:adapter-rxjava2:3.0.1'
 
     //rxjava 2
-    api 'com.google.code.gson:gson:2.8.5'
-    api 'io.reactivex.rxjava2:rxjava:2.2.7'
+    api 'com.google.code.gson:gson:2.8.7'
+    api 'io.reactivex.rxjava2:rxjava:2.2.21'
 
     //fingerprint
     //noinspection GradleDependency
@@ -62,36 +61,36 @@ dependencies {
     api 'javax.annotation:javax.annotation-api:1.3.2'
 
     //retrofit2
-    api 'com.squareup.retrofit2:retrofit:2.5.0'
-    api 'com.squareup.retrofit2:converter-gson:2.5.0'
-    api 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    api 'com.squareup.retrofit2:retrofit:2.9.0'
+    api 'com.squareup.retrofit2:converter-gson:2.9.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
 
     //jakewharton
-    api 'com.jakewharton.timber:timber:4.7.1'
-    api 'com.jakewharton.rxrelay2:rxrelay:2.1.0'
+    api 'com.jakewharton.timber:timber:5.0.1'
+    api 'com.jakewharton.rxrelay2:rxrelay:2.1.1'
     api 'com.jakewharton.rx2:replaying-share:2.1.0'
-    api 'com.jakewharton.threetenabp:threetenabp:1.1.1'
+    api 'com.jakewharton.threetenabp:threetenabp:1.2.2'
 
     //okhttp3
-    api 'com.squareup.okhttp3:okhttp:4.2.1'
-    api 'com.squareup.okhttp3:logging-interceptor:4.2.1'
+    api 'com.squareup.okhttp3:okhttp:4.9.1'
+    api 'com.squareup.okhttp3:logging-interceptor:4.9.1'
     //noinspection GradleDependency
     api 'com.squareup.okhttp3:okhttp-urlconnection:4.2.1'
 
     //location
     api 'com.patloew.rxlocation:rxlocation:1.0.5'
-    api 'com.google.android.gms:play-services-location:16.0.0'
+    api 'com.google.android.gms:play-services-location:18.0.0'
 
     //beacon
     api 'org.altbeacon:android-beacon-library:2.16.1'
 
     //fcm
-    api 'com.google.firebase:firebase-messaging:17.6.0'
-    api 'com.google.android.gms:play-services-gcm:16.1.0'
+    api 'com.google.firebase:firebase-messaging:22.0.0'
+    api 'com.google.android.gms:play-services-gcm:17.0.0'
 
     //location
-    api 'androidx.appcompat:appcompat:1.0.2'
+    api 'androidx.appcompat:appcompat:1.3.1'
     api 'com.patloew.rxlocation:rxlocation:1.0.5'
-    api 'com.google.android.gms:play-services-maps:16.1.0'
-    api 'com.google.android.gms:play-services-location:16.0.0'
+    api 'com.google.android.gms:play-services-maps:17.0.1'
+    api 'com.google.android.gms:play-services-location:18.0.0'
 }
