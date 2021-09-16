@@ -22,3 +22,9 @@ android {
     }
 
 }
+
+dependencies {
+    api 'com.github.TonyTangAndroid.common:ui:1.4.61'
+    api 'com.github.TonyTangAndroid.common:account:1.4.61'
+    api 'com.github.TonyTangAndroid.common:badge:1.4.61'
+}

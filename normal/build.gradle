@@ -21,7 +21,4 @@ dependencies {
     debugApi project(':ui')
     debugApi project(':account')
     debugApi project(':badge')
-//    api 'com.github.TonyTangAndroid.common:ui:1.4.59'
-//    api 'com.github.TonyTangAndroid.common:account:1.4.59'
-//    api 'com.github.TonyTangAndroid.common:badge:1.4.59'
 }
