@@ -36,7 +36,8 @@ dependencies {
 
     api 'com.github.tbruyelle:RxPermissions:0.11'
     api 'me.saket:better-link-movement-method:2.2.0'
-    api 'com.afollestad.material-dialogs:core:2.0.0'
+    //noinspection GradleDependency
+    api 'com.afollestad.material-dialogs:core:0.9.6.0'
 
     api 'com.evernote:android-state:1.4.1'
 
